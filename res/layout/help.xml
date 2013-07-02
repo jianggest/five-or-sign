@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="@drawable/help_bg_tile">
+    <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:padding="5px" android:layout_gravity="bottom" android:layout_alignParentBottom="true" android:text="@string/buttonBackCaption" android:id="@+id/buttonBackFromHelp"></Button>
+    <TextView android:layout_alignParentTop="true" android:layout_height="wrap_content" android:id="@+id/helpTitleView" android:layout_width="fill_parent" android:text="@string/helpTitle" android:textSize="32px" android:textStyle="bold" android:gravity="center_horizontal"></TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonBackFromHelp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/helpTitleView"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/helpTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/helpText"
+            android:textSize="8pt" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5pt"
+            android:paddingTop="5pt" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/blockhelp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="6px"
+                    android:text="@string/blockHelp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="6pt" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:paddingLeft="6pt"
+                    android:paddingTop="3pt"
+                    android:src="@drawable/blockedpiece" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5pt"
+                android:paddingTop="5pt"
+                android:src="@drawable/clearhelp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingLeft="6px"
+                android:paddingTop="6pt"
+                android:text="@string/helpClear"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="6pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="6pt"
+                android:paddingTop="6pt"
+                android:src="@drawable/randommyhelp" />
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingLeft="6px"
+                android:paddingTop="6pt"
+                android:text="@string/randomyHelp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="6pt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="6pt"
+                android:paddingTop="6pt"
+                android:src="@drawable/newmyhelp" />
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingLeft="6px"
+                android:paddingTop="6pt"
+                android:text="@string/extraMyPieceHelp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="6pt" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

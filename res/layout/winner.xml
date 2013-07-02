@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/winnerActivity">
+	<TextView android:layout_alignParentLeft="false"
+		android:layout_height="wrap_content" android:id="@+id/winnertextView"
+		android:text="@string/congrats"
+		android:layout_width="fill_parent" android:gravity="center_horizontal"
+		android:textColor="#FFFFFFFF"
+        android:layout_above="@+id/winnerImageView"></TextView>
+	<ImageView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_centerInParent="true"
+		android:adjustViewBounds="true" android:id="@+id/winnerImageView"
+		android:src="@drawable/xbig"
+            ></ImageView>
+	<Button android:layout_alignParentBottom="true"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:id="@+id/viewTableButton" android:text="@string/viewTableButtonCaption"></Button>
+	<TextView android:layout_width="fill_parent"
+              android:gravity="center_horizontal"
+		android:layout_height="wrap_content"
+		android:id="@+id/playerTextView" android:text="@string/winner"
+		android:textColor="#FFFFFFFF"
+        android:layout_below="@+id/winnerImageView"
+            ></TextView>
+</RelativeLayout>

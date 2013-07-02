@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="@drawable/game_bg" android:id="@+id/gameLayout">
+    <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:id="@+id/cancelButton" android:text="@string/cancelButtonText"></Button>
+    <Button android:layout_height="wrap_content" android:id="@+id/undoButton" android:text="@string/undoButtonText" android:layout_width="fill_parent" android:layout_alignParentBottom="false"></Button>
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Five or Sign</string>
+    <string name="aboutText">Five or Sign v1.0\nCopyright © 2011-2013 Terminus dev team\nThis software is published under the terms of GPLv3, without any warranty.\nSee gnu.org/licenses/gpl.html\nSource: gitorious.org/android-terminus-apps\nContact: youlost@thega.me</string>
+    <string name="buttonBackCaption">Back</string>
+    <string name="buttonTutorialCaption">Tutorial</string>
+    <string name="buttonNewGameCaption">New Game</string>
+    <string name="buttonHelpCaption">Help</string>
+    <string name="buttonAboutCaption">About</string>
+    <string name="buttonExitCaption">Exit</string>
+    <string name="helpTitle">Help</string>
+    <string name="helpText">\n Symbols:</string>
+    <string name="buttonCustomGameCaption">Player vs. AI</string>
+    <string name="buttonMultiplayerCaption">Player vs. Player</string>
+    <string name="viewTableButtonCaption">View the game board</string>
+    <string name="undoButtonText">Undo move</string>
+    <string name="cancelButtonText">Cancel game</string>
+    <string name="blockHelp">An extra block can be placed on the board.</string>
+    <string name="helpClear">The board is cleared.</string>
+    <string name="randomyHelp">Places a new piece on the board randomly.</string>
+    <string name="congrats">Congratulations,</string>
+    <string name="winner">won!</string>
+    <string name="extraMyPieceHelp">A new piece can be placed on the board.</string>
+</resources>
